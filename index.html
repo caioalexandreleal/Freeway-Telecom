@@ -1,26 +1,327 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
+<html lang="pt-Br">
+
+<head>
+    <!--- Basic Page Needs  -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FreeWAY Telecom | Site em Desenvolvimento</title>
-    <meta name="description" content="">
-    <meta name="author" content="Caio A.L.">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
-    <link rel="icon" href="dev/assets/img/icon/favicon.png">
-  </head>
+    <title>Freeway Telecom | Internet de alta velocidade na sua casa</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Specific Meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/icon/favicon.png">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
 
-  <body>
-    <div class="container">
-      <img src="logo.png">
-      <h1><b>Site em </b>Desenvolvimento</h1>
-      <p>Em breve você terá um novo site repleto de novidades.</p>
-
-      <div class="btn-area">
-        <a class="btn btn-wpp" href="https://api.whatsapp.com/send?phone=5591982606552&text=Ol%C3%A1%21%20Tenho%20interesse%20em%20contratar%20os%20planos%20de%20internet%20da%20FreeWAY%20Telecom.&source=&data=&app_absent=">Entre em Contato</a>
-        <a class="btn btn-cliente" href="https://freeway.beesweb.com.br/auth/sign_in">Área do Cliente</a>
-      </div>
+<body>
+    <!-- preloader area start -->
+    <div id="preloader">
+        <div class="spinner"></div>
     </div>
-  </body>
+    <!-- preloader area end -->
+    <!-- header area start -->
+    <header class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="menu-area">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/icon/logo.png" alt="Freeway Telecom"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 hidden-xs hidden-sm">
+                        <div class="main-menu">
+                            <nav class="nav-menu">
+                                <ul>
+                                    <li class="active"><a href="#home">Inicio</a></li>
+                                    <li><a href="#about">Quem Somos</a></li>
+                                    <!--<li><a href="#screenshot">Screenshot</a></li>
+                                    <li><a href="#features">Features</a></li>
+                                    <li><a href="#review">Review</a></li>-->
+                                    <li><a href="#pricing">Planos</a></li>
+                                    <li><a href="#contact">Contato</a></li>
+                                    <li><a class="menu-cliente" href="https://adm.beesweb.com.br/auth/sign_in" target="_blank">Área do Cliente</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xs-12 visible-sm visible-xs">
+                        <div class="mobile_menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header area end -->
+    <!-- slider area start -->
+    <section class="slider-area background-image" id="home">
+        <div class="container">
+            <div class="slider-content d-flex flex-center">
+                <div class="col-md-8 col-sm-9 col-xs-12 d-flex flex-center">
+                    <div class="slider-nner">
+                        <h2>Contrate o Plano Ideal Para Você</h2>
+                        <p>Navegue, assista filmes, jogue online, faça downloads sem queda. Na FreeWAY você tem mais velocidade, cobertura e estabilidade da rede pra a sua casa e também a sua empresa.</p>
+                        <div class="btn-area">
+                            <a href="#pricing">Conheça Nossos Planos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider area end -->
+    <!-- about area start -->
+    <section class="about-area ptb--110" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 hidden-sm hidden-xs">
+                    <div class="about-left-thumb">
+                        <img src="assets/img/mobile/about-m-screen.png" alt="mobile screen">
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="about-content">
+                        <h2>Quem Somos</h2>
+                        <p>Navegue, assista filmes, jogue online, faça downloads sem queda. Na FreeWAY você tem mais velocidade, cobertura e estabilidade da rede pra a sua casa e também a sua empresa.</p>
+                        <div class="about-ft">
+                            <div class="ft-single">
+                                <div class="icon"><i class="fa fa-globe"></i></div>
+                                <div class="ft-info">
+                                    <h4>Navegue a Vontade</h4>
+                                    <p>Navegue com facilidade e qualidade em qualquer dispositivo.</p>
+                                </div>
+                            </div>
+                            <div class="ft-single">
+                                <div class="icon"><i class="fa fa-film"></i></div>
+                                <div class="ft-info">
+                                    <h4>Assita Séries e Filmes</h4>
+                                    <p>A melhor qualidade para você se entreter com a sua família.</p>
+                                </div>
+                            </div>
+                            <div class="ft-single">
+                                <div class="icon"><i class="fa fa-briefcase"></i></div>
+                                <div class="ft-info">
+                                    <h4>Trabalhe em Casa</h4>
+                                    <p>Maior velocidade e capacidade de transmissão de dados.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about area end -->
+
+    <!-- FEATURE area start ->
+    <section class="about-area ptb--110" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 hidden-sm hidden-xs">
+                    <div class="about-left-thumb">
+                        <img src="assets/img/mobile/about-m-screen.png" alt="mobile screen">
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="about-content">
+                        <h2>Quem Somos</h2>
+                        <p>Navegue, assista filmes, jogue online, faça downloads sem queda. Na FreeWAY você tem mais velocidade, cobertura e estabilidade da rede pra a sua casa e também a sua empresa.</p>
+                        <div class="about-ft">
+                            <div class="ft-single">
+                                <div class="icon"><i class="fa fa-globe"></i></div>
+                                <div class="ft-info">
+                                    <h4>Navegue a Vontade</h4>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="ft-single">
+                                <div class="icon"><i class="fa fa-film"></i></div>
+                                <div class="ft-info">
+                                    <h4>Assita Séries e Filmes</h4>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="ft-single">
+                                <div class="icon"><i class="fa fa-briefcase"></i></div>
+                                <div class="ft-info">
+                                    <h4>Trabalhe em Casa</h4>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!- about area end -->
+
+    <!-- pricing area start -->
+    <section class="pricing-area ptb--120" id="pricing">
+        <div class="container">
+            <div class="section-title text-black">
+                <h2>Planos na Fibra</h2>
+                <p>Conheça nossos planos e contrate agora mesmo.</p>
+            </div>
+            <div class="row">
+                <div class="pricing-list">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pricing-item text-center">
+                            <div class="prc-head bg-theme">
+                                <span>10Mb</span>
+                                <h4>R$49,99/Mês</h4>
+                            </div>
+                            <ul class="prc-list">
+                                <li>100% Fibra Óptica</li>
+                                <li>5Mb de Upload</li>
+                                <li>Internet Ilimitada</li>
+                                <li>Roteador incluso na taxa de instalação</li>
+                            </ul>
+                            <div class="btn-area">
+                                <a href="https://api.whatsapp.com/send?phone=5591988390272&text=Gostaria%20de%20assinar%20o%20plano%20de%2010Mb.&source=&data=&app_absent=" target="_blank">Contratar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pricing-item text-center">
+                            <div class="prc-head bg-theme">
+                                <span>25Mb</span>
+                                <h4>R$79,99/Mês</h4>
+                            </div>
+                            <ul class="prc-list">
+                                <li>100% Fibra Óptica</li>
+                                <li>13Mb de Upload</li>
+                                <li>Internet Ilimitada</li>
+                                <li>Roteador incluso na taxa de instalação</li>
+                            </ul>
+                            <div class="btn-area">
+                                <a href="https://api.whatsapp.com/send?phone=5591988390272&text=Gostaria%20de%20assinar%20o%20plano%20de%2025Mb.&source=&data=&app_absent=" target="_blank">Contratar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="pricing-item text-center">
+                            <div class="prc-head bg-theme">
+                                <span>40Mb</span>
+                                <h4>R$109,99/Mês</h4>
+                            </div>
+                            <ul class="prc-list">
+                                <li>100% Fibra Óptica</li>
+                                <li>20Mb de Upload</li>
+                                <li>Internet Ilimitada</li>
+                                <li>Roteador incluso na taxa de instalação</li>
+                            </ul>
+                            <div class="btn-area">
+                                <a href="https://api.whatsapp.com/send?phone=5591988390272&text=Gostaria%20de%20assinar%20o%20plano%20de%2040Mb.&source=&data=&app_absent=" target="_blank">Contratar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pricing area end -->
+    <!-- subscribe area start -->
+    <section class="download-area ptb--120 bg-theme section-contato" id="download">
+        <div class="container">
+            <div class="section-title">
+                <h2>Área do Cliente</h2>
+                <p>Acesse a central do cliente e tenha acesso a 2° via da sua fatura.</p>
+            </div>
+            <div class="download-btns btn-area text-center">
+                <a href="https://adm.beesweb.com.br/auth/sign_in" target="_blank"><i class="fa fa-user"></i>Acessar</a>
+            </div>
+        </div>
+    </section>
+    <!-- subscribe area end -->
+    
+    
+    <!-- map area start -->
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6956905679767!2d-48.39799398524597!3d-1.3592192990086696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a45fe3d1682a2b%3A0x8e201e23995d3199!2sFreeway%20Tecnologia%20%26%20Designer!5e0!3m2!1spt-BR!2sbr!4v1586377619087!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <!-- map area end -->
+    <!-- contact area start -->
+    <div class="contact-area bg-theme">
+        <div class="container">
+            <section class="contact-inner" id="contact">
+                <div class="section-title text-black">
+                    <h2>Contato</h2>
+                </div>
+                <div class="contact-flex-container">
+                    <div class="contact-address">
+                        <h4 class="contact-title">Endereço</h4>
+                        <ul>
+                            <li class="h-addres"><i class="fa fa-home"></i>Avenida Arterial 18, Cidade Nova 5 - Nº978<br>Ananindeua, Pará</li>
+                            <li><i class="fa fa-phone"></i>091 98260-6552</li>
+                            <li><i class="fa fa-envelope"></i>freewaytelecom@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="contact-form">
+                        <h4 class="contact-title">Fale Conosco</h4>
+                        <form action="#">
+                            <input type="text" class="input" name="name" placeholder="Nome  Completo*">
+                            <input type="email" class="input" name="email" placeholder="Endereço de Email*">
+                            <input type="text" class="input" name="subject" placeholder="Motivo do Contato*">
+                            <textarea name="msg" class="input" id="msg" placeholder="Sua Menssagem*"></textarea>
+                            <input type="submit" id="send" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- contact area end -->
+    <!-- footer area start -->
+    <footer>
+        <div class="footer-area bg-theme ptb--50">
+            <div class="container">
+                <div class="footer-inner">
+                    <ul class="fsocial">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=5591988390272&text=Ol%C3%A1%21%20Tenho%20interesse%20em%20contratar%20os%20planos%20de%20internet%20da%20FreeWAY%20Telecom.&source=&data=&app_absent=" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                     <p class="copy-right"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script>Freeway Telecom. Todos os diretos reservados. <!--<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>-->
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Botão Flutuante-->
+    <div>
+        <a href="https://api.whatsapp.com/send?phone=5591988390272&text=Ol%C3%A1%21%20Tenho%20interesse%20em%20contratar%20os%20planos%20de%20internet%20da%20FreeWAY%20Telecom.&source=&data=&app_absent=" alt="Fale com nosso atendimento via WhatsApp" title="Fale com nosso atendimento via WhatsApp" Style="position:fixed;width:60px;height:60px;bottom:10px;left:10px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888; z-index:1000; float: right;" target="_blank">
+            <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+        </a>
+    </div>
+    <!-- footer area end -->
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.2.0.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="assets/js/raindrops.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
 </html>
