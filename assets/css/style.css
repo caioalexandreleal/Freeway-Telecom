@@ -343,6 +343,7 @@ font-family: 'Open Sans', sans-serif;
 .background-image {
     background: url(../img/bg/img-background.jpg) center center/cover no-repeat;
     position: relative;
+    background-attachment: fixed;
 }
 
 /*===========================
@@ -1802,3 +1803,16 @@ END Blog Standard
 /*===========================
 END Blog Details
 ===========================*/
+
+
+.anatel{
+    width: 250px;
+    height: auto;
+    margin-bottom: 2.5%;
+}
+
+.div-movie{
+    background-image: url(../img/bg-movie.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
